@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Poligrafi */
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 100px;
+}
+
+
+/* Header  */
+
+.header{
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #acacac;
+    align-items: center;
+}
+
+.logo{
+    text-align: left;
+}
+.logo h1{
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.logo span{
+    display: block;
+    font-weight: 400;
+}
+
+.menu a{
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-family: "Arial";
+    color: rgb( 4, 4, 4 );
+    line-height: 1.025;
+}
+
+ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px 20px;
+}
+
+.menu li:hover {
+    background: #acacac;
+}
+
+
+/* content */
+
+.main{
+
+}
+.photo{
+    margin: 50px 0px;
+
+}
+
+.info {
+    font-size: 15px;
+    font-family: "Arial";
+    color: rgb( 4, 4, 4 );
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.name{
+    font-weight: bold;
+    padding-right: 10px;
+    text-align: left;
+    float: left;
+}
+
+.value{
+    font-weight: 400;
+    text-align: left;
+    float: left;
+}
+
+/* footer */
+
+
+.footer{
+    text-align: center;
+    padding: 30px;
+    font-size: 15.371px;
+    font-family: "Arial";
+    color: rgb( 4, 4, 4 );
+    line-height: 1.2;
+
+}
+
+
+
+
+
+
