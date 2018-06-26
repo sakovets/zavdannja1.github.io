@@ -14,11 +14,15 @@
 /* Header  */
 
 .header{
-    padding-bottom: 50px;
     display: flex;
     justify-content: space-between;
-    border-bottom: 2px solid #acacac;
     align-items: center;
+    padding-bottom: 15px;
+}
+
+header{
+    padding-bottom: 30px;
+    border-bottom: 2px solid #acacac;
 }
 
 .logo{
@@ -58,21 +62,31 @@ ul li {
 
 /* content */
 
-.main{
-
-}
-.photo{
+.main:after, .main:before{
+    content: '';
+    display: table;
+    clear: both;
     margin: 50px 0px;
+}
 
+.photo{
+    float: left;
+    padding-right: 25px;
+}
+
+.photo2{
+    float: left;
+    padding-right: 10px;
+    width: 50%
+;
 }
 
 .info {
     font-size: 15px;
     font-family: "Arial";
     color: rgb( 4, 4, 4 );
-    content: '';
-    display: table;
-    clear: both;
+    font-weight: bold;
+    float: left;
 }
 
 .name{
@@ -82,10 +96,14 @@ ul li {
     float: left;
 }
 
-.value{
+.info span{
     font-weight: 400;
     text-align: left;
-    float: left;
+}
+
+.biography{
+    font-size: 15px;
+    font-family: "Arial";
 }
 
 /* footer */
