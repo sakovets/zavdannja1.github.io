@@ -247,7 +247,8 @@ h5{
     font-size: 14px;
     font-family: "OpenSans";
     color: rgb( 255, 255, 255 );
-    height: 170px;
+    height: 180px;
+    padding-top: 15px;
 
     &__item p{
       padding-left: 5px;
@@ -461,17 +462,22 @@ h5{
 .video{
   padding-left: 10px;
   padding-right: 10px;
-  text-align: left;
   font-size: 20px;
   font-family: "Times New Roman";
   color: rgb( 1, 1, 1 );
   opacity: 0.702;
+  text-align: center;
  }
+
+.video p{
+  text-align: left;
+}
 
 iframe{
   width: 450px;
   height: 270px;
   margin: 0 auto;
+  text-align: center;
 }
 
 /* News */
@@ -782,6 +788,26 @@ iframe{
 
 /* responsive */
 
+@media( max-width: 1023px){
+
+  .social-footer{
+    justify-content: space-around;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  .mLogo{
+    text-align: center;
+  }
+}
+
+
+@media( max-width: 1000px) {
+  .topInfo__item {
+    height: 210px;
+  }
+}
+
 @media( max-width: 990px) {
   .menuToggle{
     display: block;
@@ -815,6 +841,26 @@ iframe{
   .upcoming__btn-red{
     margin-bottom: 35px;
   }
+
+  .upcoming__btn-white{
+    background-color: white;
+  }
+
+  .upcoming__title{
+    padding-right: 7px;
+    padding-left: 7px;
+  }
+
+  .upcoming__text{
+    padding-right: 7px;
+    padding-left: 7px;
+  }
+
+  .upcoming{
+    background-color: white;
+    padding-top: 15px;
+  }
+
 }
 
 @media( max-width: 960px){
@@ -833,6 +879,7 @@ iframe{
     width: 350px;
     height: 210px;
   }
+
 }
 
 @media( max-width: 860px) {
@@ -842,7 +889,7 @@ iframe{
   .topInfo__item{
     margin-left: 2px;
     margin-right: 2px;
-    height: 220px;
+    height: 240px;
   }
   .h-carousel-wrapper {
     width: 440px;
@@ -853,16 +900,22 @@ iframe{
   .topInf {
     display: flex;
     flex-direction: column;
-    bottom: -210px;
+    bottom: -300px;
     margin-left: -150px;
   }
 
+  .topInfo{
+
+    padding-bottom: 10px;
+  }
+
   .topInfo__item{
-    height: 140px;
+    height: 170px;
     width: 300px;
+    padding-bottom: 40px;
   }
   .about{
-    padding-top: 260px;
+    padding-top: 320px;
   }
 }
 
@@ -874,6 +927,24 @@ iframe{
   }
   .video{
     text-align: center;
+  }
+  .bigmenu{
+    display: none;
+    position: fixed;
+    right: 0px;
+    top: 30px;
+    z-index: 10;
+    width: 100px;
+
+  }
+
+
+}
+
+@media( max-width: 640px){
+  .social-footer{
+    padding-left: 80px;
+    padding-right: 80px;
   }
 }
 
@@ -928,5 +999,19 @@ iframe{
 
   .fa-angle-left, .fa-angle-right{
     padding: 5px 15px;
+  }
+
+  .banner-text p {
+   margin-bottom: 10px;
+  }
+}
+
+@media( max-width: 350px){
+  .menu span{
+    width: 130px;
+    padding-left: 0;
+    padding-right: 0;
+    border-radius: 1px;
+    font-size: 10px;
   }
 }
