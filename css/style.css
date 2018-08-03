@@ -188,8 +188,7 @@ h5 {
 .topInf {
   position: absolute;
   bottom: -85px;
-  left: 50%;
-  margin-left: -500px;
+  left: calc(50% - 500px);
   display: flex;
   justify-content: center; }
 
@@ -680,7 +679,7 @@ iframe {
 
 @media (max-width: 960px) {
   .topInf {
-    margin-left: -450px; }
+    left: calc(50% - 450px); }
   .topInfo__item {
     margin-left: 5px;
     margin-right: 5px;
@@ -693,7 +692,7 @@ iframe {
 
 @media (max-width: 860px) {
   .topInf {
-    margin-left: -400px; }
+    left: calc(50% - 400px); }
   .topInfo__item {
     margin-left: 2px;
     margin-right: 2px;
@@ -705,16 +704,16 @@ iframe {
   .topInf {
     display: flex;
     flex-direction: column;
-    bottom: -300px;
-    margin-left: -150px; }
+    bottom: -460px;
+    left: calc(50% - 157px); }
   .topInfo {
     padding-bottom: 10px; }
   .topInfo__item {
-    height: 170px;
-    width: 300px;
+    height: 210px;
+    width: 280px;
     padding-bottom: 40px; }
   .about {
-    padding-top: 320px; } }
+    padding-top: 480px; } }
 
 @media (max-width: 710px) {
   iframe {
